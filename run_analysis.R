@@ -72,10 +72,10 @@ names(selected_df) <-gsub("GravityAcc", "GravityAcceleration", names(selected_df
 names(selected_df) <-gsub("\\(\\)", "", names(selected_df))
 
 ## The tidied data
-selected_df
+head(selected_df)
     
 ## Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidy_data <- aggregate(.~Subject - Activity, selected_df, mean)
-print(tidy_data)
+head(tidy_data)
     
     
