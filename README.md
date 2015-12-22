@@ -1,7 +1,7 @@
 ---
 title: "README"
 author: "DocOfi"
-date: "August 24, 2015"
+date: "December 22, 2015"
 output: html_document
 ---
 ##Programming Assignment for the Getting and Cleaning Data course in Coursera
